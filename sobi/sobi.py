@@ -1,16 +1,6 @@
 import numpy as np
 import itertools
 import random
-from utils import *
-
-
-"""ToDo
-
-- Make object oriented version similar to FastICA
-- Prepare for inclusion in scikit-learn
-
-"""
-
 
 def time_lagged_cov(X, num_lags):
 
